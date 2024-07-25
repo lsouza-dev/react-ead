@@ -1,8 +1,13 @@
 import React from 'react'
 
 function ButtonModal({setModal}) {
+
+function handeClick(){
+  setModal((ativo) => !ativo)
+}
+
   return (
-    <button onClick={() => setModal(true)}>
+    <button onClick={handeClick}>
       Abrir
     </button>
   )

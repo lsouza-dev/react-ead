@@ -1,5 +1,5 @@
 import React from 'react'
-import Produto from '../dias-estudos/dia3/exercicio-useState/Produto'
+import Produto from './Produto'
 
 function App() {
     const [dados,setDados] = React.useState(null);
