@@ -48,9 +48,9 @@ const App = () => {
       label: 'Estado',
       type: 'text', 
     },
-  ]
+  ] 
 
-  // Para automarizar oa useState de form...
+  // Para automatizar o useState de form...
   const forms = formField.reduce((acc,field) =>{
     console.log(acc)
     return{
